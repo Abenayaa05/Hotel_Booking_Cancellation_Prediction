@@ -1,0 +1,26 @@
+{
+    "project": "Hotel Booking Cancellation Prediction",
+    "dataset_file": "hotel_bookings.csv",
+    "dataset_rows_original": 119390,
+    "dataset_columns_original": 32,
+    "dataset_rows_after_cleaning": 87230,
+    "dataset_years": [
+        2015,
+        2016,
+        2017
+    ],
+    "holdout_period": "Arrival year 2017",
+    "best_model_by_test_roc_auc": "XGBoost",
+    "test_metrics": {
+        "model": "XGBoost",
+        "accuracy": 0.7819681977681535,
+        "precision": 0.7332461113533943,
+        "recall": 0.4991094399366713,
+        "f1": 0.593935825728584,
+        "roc_auc": 0.8574925803209168,
+        "pr_auc": 0.7153220801179058
+    },
+    "target_definition": "1 = Canceled or No-Show; 0 = Check-Out",
+    "dataset_adaptation_note": "Supplied dataset differs from handbook dataset; it contains two hotel types and 2015-2017 arrivals, so the handbook's six-property and 2025 holdout requirements cannot be reproduced.",
+    "revenue_note": "Revenue risk is a booking-value exposure proxy, not audited financial loss."
+}
