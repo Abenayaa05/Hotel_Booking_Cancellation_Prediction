@@ -14,3 +14,22 @@ venv/
 
 # Environment variables
 .env
+
+
+
+# Original dataset
+hotel_bookings.csv
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+.venv/
+
+# Secrets
+.env
